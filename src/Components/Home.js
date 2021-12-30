@@ -10,8 +10,8 @@ function Home() {
 					<div className="row">
 						<div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start ">
 							<h1 className="display-2">
-								the Accept
-								<span className="cont_2">Kusama Cash </span>
+								The Accept
+								<span className="cont_2"> Kusama Cash </span>
 								initiative
 							</h1>
 						</div>
