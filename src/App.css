@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-	color: #f7941d;
+	color: #ffc107;
 }
 
 .navbar-nav {
@@ -28,23 +28,84 @@ body {
 }
 
 .ui {
-	margin: 0 350px;
-	background-color: #327b9e;
+	margin: 0 200px;
+	background-color: black;
 	text-align: center;
 	align-items: center;
 	color: #fff;
-
-	font-size: 1rem;
+	line-height: 1.5;
+	font-size: 1.5rem;
 }
+
 .textformate {
 	margin: 0 870px;
 	color: #fff;
 }
 .cont_2 {
-	color: #f7941d;
+	color: #ffc107;
 }
 
-.container{
-  /* background-color: #fff; */
-	color:#fff ;
+.container {
+	color: #fff;
 }
+
+
+.abc {
+	background-color: #ffc107;
+}
+/* 
+.img-fluid {
+	width: 80%;
+	height: 80%;
+} */
+
+/* ---------------------------------------- Header Section css                
+                ------------------------------------------------------------------------------------------------------- */
+
+header {
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-hero-container {
+  height: 80vh;
+  display: flex;
+  /* background-color:aqua; */
+}
+
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  
+}
+.text_1{
+	justify-content: space-between;
+	color: black;
+	
+	
+	
+	
+
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+.main-hero-container h3 {
+  font-weight: lighter;
+}
+/* right side imagaes target */
+
+.main-herosection-images img {
+  width: 90%;
+  height: 80%;
+  /* overflow: hidden; */
+}
+
+
+
